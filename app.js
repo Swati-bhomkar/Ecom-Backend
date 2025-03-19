@@ -7,8 +7,8 @@ const morgan = require('morgan'); //use and run http methods
 const bcrypt = require('bcryptjs'); //main - secure the password #method to convert into strong 10 digit password
 const jwt = require('jsonwebtoken'); //verify authorized user - to compare given things to db things
 const {brotliCompressSync} = require('zlib');
-const {Product} = require('./Model/Product'); // after creating product schema 
-const {Cart} = require('./Model/Cart');
+const {Product} = require('./model/Product'); // after creating product schema 
+const {Cart} = require('./model/Cart');
 
 //middleware
 app.use(express.json());
