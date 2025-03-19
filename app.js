@@ -4,7 +4,7 @@ const {User} = require('./model/User');
 const mongoose = require('mongoose');
 const cors = require('cors');// connect front5713 to backend8080
 const morgan = require('morgan'); //use and run http methods
-const bcrypt = require('bcryptjs'); //main - secure the password #method to convert into strong 10 digit password
+const bcrypt = require('bcrypt'); //main - secure the password #method to convert into strong 10 digit password
 const jwt = require('jsonwebtoken'); //verify authorized user - to compare given things to db things
 const {brotliCompressSync} = require('zlib');
 const {Product} = require('./Model/Product'); // after creating product schema 
@@ -397,4 +397,8 @@ app.delete("/cart/product/delete", async (req, res) => {
 
 app.listen(8080, () => {
     console.log("Server is Started on 8080");
+<<<<<<< HEAD
    });
+=======
+   });
+>>>>>>> e952710df40e7915865931a5a23edb0b0adfeca9
