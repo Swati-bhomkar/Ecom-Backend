@@ -397,8 +397,4 @@ app.delete("/cart/product/delete", async (req, res) => {
 
 app.listen(8080, () => {
     console.log("Server is Started on 8080");
-<<<<<<< HEAD
    });
-=======
-   });
->>>>>>> e952710df40e7915865931a5a23edb0b0adfeca9
